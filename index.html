@@ -4,21 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-
-    <link href="./all.min.css" />
-    <link href="./normalize.css" />
+    <link href="./main.css" rel="stylesheet" />
   </head>
   <body>
     <div class="">
       <!-- Start the top content with background -->
       <div
         class="top bg-cover h-custom2 md:h-custom1 bg-bottom bg-no-repeat"
-        style="background-image: URL(./images/background-top.png)">
+        style="background-image: url(./images/background-top.png)">
         <!-- Start Header -->
         <header
           class="flex flex-row items-center pt-8 pr-7 pl-7 md:pr-52 md:pl-52 justify-between">
-          <img src="./images/logo.png" />
+          <img src="/images/logo.png" />
           <ul
             class="md:flex flex-row gap-9 hidden ml-20 text-custom font-semibold flex-1">
             <li class="cursor-pointer">Products</li>
@@ -39,8 +36,9 @@
         <div
           class="content flex-col md:flex-row flex-col-reverse flex items-center">
           <div
-            class="text flex flex-col gap-6 basis-1/2 pr-7 pl-7 md:pr-52 md:pl-52">
-            <h1 class="text-white mt-8 md:mt-0 text-5xl md:text-5xl font-bold">
+            class="text flex flex-col flex-1 gap-6 basis-1/2 pr-7 pl-7 md:pl-52">
+            <h1
+              class="text-white w-full mt-8 md:mt-0 text-5xl md:text-2xl font-bold">
               Monitor your business on real-time dashboard
             </h1>
             <p class="text-custom">
@@ -54,7 +52,7 @@
           </div>
           <img
             class="basis-1/2 hidden mt-14 md:block"
-            style="width: 873px"
+            style="width: 750px"
             src="./images/main-screen.png" />
 
           <img
